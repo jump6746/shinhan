@@ -1,0 +1,39 @@
+.nav-container{
+
+  background-color: white;
+  padding: 12px 28px;
+}
+
+.nav-bar{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.menu-container{
+  a{
+    text-decoration: none;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+
+    img{
+      inline-size: 2rem;
+      block-size: 2rem;
+    }
+  }
+  
+}
+
+.nav-name{
+  color: #BBC3C9;
+  font-size: 0.75rem;
+}
+
+.active{
+  color: #005BAC;
+}
