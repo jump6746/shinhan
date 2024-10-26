@@ -1,7 +1,7 @@
 // import { useState, useEffect } from "react";
-import "./Header.css";
+import "./NavBar.css";
 
-function Header() {
+function NavBar() {
   // const [iconState, setIconState] = useState("inactive");
 
   // useEffect(() => {
@@ -74,4 +74,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default NavBar;

@@ -1,10 +1,10 @@
 import "./App.css";
-import Header from "./component/Header/Header";
+import Router from "./router/Router";
 
 function App() {
   return (
     <div className="container">
-      <Header></Header>
+      <Router></Router>
     </div>
   );
 }

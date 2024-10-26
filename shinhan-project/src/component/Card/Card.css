@@ -1,0 +1,105 @@
+/* 카드 모양 */
+.card{
+
+  inline-size: 327px;
+  block-size: 188px;
+  overflow: hidden;
+
+  background-color: #4375ff;
+  border-radius: 12px;
+  box-shadow: -10px -10px 20px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.15) inset;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  box-sizing: border-box;
+  padding: 22px 20px;
+}
+
+
+/* 카드 데이터 컨테이너 */
+.card-info-container{
+    
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
+  color: white;
+}
+
+.card-info-container:hover{
+
+  transform: scale(1.025);
+  transition-duration: 500ms;
+}
+
+.card-info-container:not(:hover){
+  transform: scale(1);
+  transition-duration: 500ms;
+}
+
+/* 카드 정보 데이터 */
+.card-info-data{
+
+  display: flex;
+  flex-flow: column nowrap;
+
+}
+
+.my-point{
+
+  inline-size: 148px;
+  block-size: 36px;
+
+  font-size: 24px;
+  font-weight: 600;
+
+  margin-bottom: 30px;
+}
+
+.card-name{
+
+  inline-size: 142px;
+  block-size: 16px;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+
+  margin-bottom: 10px;
+}
+
+.card-number{
+  inline-size: 232px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.circle-number{
+  font-size: 6px;
+  letter-spacing: 0.2rem;
+}
+
+.card-point{
+  
+  inline-size: 120px;
+  block-size: 28px;
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  
+  margin-top: 8px;
+}
+
+/* 카드 회사 이름 */
+.card-company{
+
+  inline-size: 48px;
+  block-size: 16px;
+
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+
+  margin: auto 0 2px 0;
+}
